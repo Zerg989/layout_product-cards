@@ -1,0 +1,114 @@
+.card {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card__container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  display: flex;
+  position: relative;
+}
+
+.card__name {
+  color: #060b35;
+  margin-top: 40px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__article {
+  color: #616070;
+  margin-right: 65px;
+  padding-top: 4px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__price {
+  justify-content: space-between;
+  padding-top: 24px;
+  display: flex;
+}
+
+.card__price-text {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__price-cost {
+  padding-left: 85px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__image {
+  background-image: url("imac.d0e0225a.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 134px;
+  margin-top: 33px;
+}
+
+.card__review {
+  align-items: flex-end;
+  padding-top: 15px;
+  display: flex;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star-active.2be54011.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars .stars__star:nth-child(5) {
+  background-image: url("star.fa806e3c.svg");
+}
+
+.card__count {
+  color: #060b35;
+  padding-top: 2px;
+  padding-left: 18.5px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 166px;
+  height: 40px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: #00acdc;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
